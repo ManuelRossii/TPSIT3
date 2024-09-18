@@ -24,7 +24,7 @@ public class primary {
 		System.out.printf("\nIl prodotto di 2*3*4 è %d\n", ris);
 
 		//Testiamo i costruttori
-		System.out.printf("\n esercizio costruttori");
+		System.out.printf("\n esercizio costruttori\n");
 		Secondaria ogg2 = new Secondaria();
 		Secondaria ogg3 = new Secondaria(15, 23);
 		
