@@ -18,11 +18,17 @@ public class primary {
 		//Proviamo il metordo somma di secondari
 		int ris = oggetto_second.somma(12, 7);
 		System.out.printf("\n\nLa somma di %d e %d è %d\n\n", 12, 7, ris);
-	
-				
+					
 		//Proviamo il metordo 
 		ris = oggetto_second.prod(2, 3, 4);
-		System.out.printf("Il prodotto di 2*3*4 è %d", ris);
+		System.out.printf("\nIl prodotto di 2*3*4 è %d\n", ris);
+
+		//Testiamo i costruttori
+		System.out.printf("\n esercizio costruttori");
+		Secondaria ogg2 = new Secondaria();
+		Secondaria ogg3 = new Secondaria(15, 23);
+		
+
 	}
 
 }
